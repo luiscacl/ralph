@@ -1,0 +1,13 @@
+Nunca subas al servidor el archivo Code.js
+
+Cada que subas al servidor, tienes que verificar que el archivo de Twilio.js tenga esto
+module.exports = {
+    accountSID: "ACb3c970625fcbf86fb6b65f5004db5f8c",
+    authToken: "18ea48de6c60286885ba950f5af8b1ab",
+}
+
+Comandos Linux
+cd carpeta - Para posisionarte dentro de una carpeta
+ls - Ver todos los archivos de la carpeta
+cat archivo - Para ver el contenido de un archivo
+nano archivo - Para editar el contenido de un archivo

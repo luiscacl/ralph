@@ -1,0 +1,961 @@
+
+html {
+  background-color: #faf8f0;
+}
+
+body {
+  /* overscroll-behavior-y: contain; */
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-text-size-adjust: none;
+}
+
+.row{
+  flex-wrap: nowrap !important;
+}
+
+#login{
+  background-color: #f78216;
+  height: 100%;
+}
+
+.login *{
+  font-size: 20px;
+}
+
+@media (min-width: 576px){
+  .card-deck .card {
+      margin-right: 0.5cm !important;
+      margin-left: 0.5cm !important;
+      width: 250px !important; 
+      height: 250px !important;
+  }
+}
+
+.panel-body1{
+  background-color: white;
+  border-radius: 10px;
+}
+
+.recado-grande{
+  font-size: 20px;
+}
+
+.recado-chico{
+  font-size: 15px;
+}
+
+.badgeRed .badge {
+  position: absolute;
+  margin-top: -10px;
+  margin-left: 6px;
+  background: red;
+  color: white;
+  font-size: 12px;
+}
+
+.badgeBlue .badge {
+  position: absolute;
+  margin-top: -10px;
+  margin-left: 6px;
+  background: #007bff;
+  color: white;
+  font-size: 12px;
+}
+
+.badgeGreen .badge {
+  position: absolute;
+  margin-top: -10px;
+  margin-left: 6px;
+  background: #28a745;
+  color: white;
+  font-size: 12px;
+}
+
+.navbar-default .badge {
+  position: absolute;
+  top: 5px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+}
+
+.navbar-default .restauranteBadge {
+  top: 0px !important;
+  right: -22px !important;
+  padding: 4px 6px !important;
+  border-radius: 30% !important;
+  font-size: 15px !important; 
+}
+
+.navbar-default .repartidorBadge {
+  top: -2px !important;
+  right: -25px !important;
+  padding: 4px 6px !important;
+  border-radius: 30% !important;
+  font-size: 16px !important; 
+}
+
+.navbar-default .pedidosBadge {
+  top: 3px !important;
+  right: -10px !important;
+  padding: 4px 6px !important;
+  border-radius: 30% !important;
+  font-size: 16px !important; 
+}
+
+.navbar-default .cuponesBadge {
+  top: 3px !important;
+  right: 20px !important;
+  padding: 4px 6px !important;
+  border-radius: 30% !important;
+  font-size: 16px !important; 
+}
+
+.btn-orange{
+  background-color: #f47b00 !important;
+  border-color: #f57d05 !important;
+  font-size: 22px;
+  border-radius: 4px;
+  color: white !important;
+}
+
+.btn-orange2{
+  background-color: #ff5620 !important;
+  border-color: #fc4b10 !important;
+  font-size: 22px;
+  border-radius: 4px;
+  font-weight: bold !important;
+}
+
+.btn-left button{
+  text-align: justify !important;
+}
+
+.btn-blue{
+  /* background-color: #3a5695 !important; */
+  /* border-color: #344c85 !important; */
+  background-color: #0d70da !important;
+  border-color: #0e66c5 !important;
+  font-size: 18px !important;
+  text-align: left !important;
+}
+
+.btn-blue i{
+  font-size: 27px !important;
+}
+
+.btn-red{
+  background-color: #dd4a39 !important;
+  border-color: #c74335 !important;
+  font-size: 18px !important;
+  text-align: left !important;
+}
+
+.btn-red i{
+  font-size: 23px !important;
+}
+
+.btn-gray{
+  font-size: 18px !important;
+  text-align: left !important;
+}
+
+.btn-gray i{
+  font-size: 23px !important;
+}
+
+.text-inicio{
+  font-size: 20px;
+  text-align: center;
+}
+
+.text-municipio{
+  font-size: 25px;
+  text-align: center;
+}
+
+.text-municipio2{
+  background-color: #ff8d00db;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-bottom: 8px;
+  padding-top: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.text-municipio i{
+  font-size: 18px !important;
+}
+
+.inicio{
+  background-color: white;
+}
+
+.navbar .iconss {
+  font-size: 30px;
+  color: white !important;
+  color: #f78216 !important;
+  color: #f47b00 !important;
+  color: #fb9904 !important;
+  color: #ff5620 !important;
+  color: #f8cbad !important;
+}
+
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    overflow: auto;
+    overflow-y: hidden;
+}
+
+.scrolling-wrapper> .cards{
+    display: inline-block;
+    height: 100px;
+    height: 100px;
+}
+
+.navbar {
+  border-radius: 0px !important;
+  background: #f78216 !important;
+  border-bottom: 10px;
+}
+
+.navbars{
+  margin-top: 6px;
+  margin-right: -27px;
+}
+
+.res-nom2 *{
+  color: #212529f5 !important;
+  font-size: 24px;
+}
+
+.res-nom-big2 *{
+  color: #212529f5 !important;
+  font-size: 22px;
+}
+
+.res-nom-xbig2 *{
+  color: #212529f5 !important;
+  font-size: 19px;
+}
+
+.navbar .res-nom *{
+  color: white !important;
+  text-align: left;
+  font-size: 24px;
+}
+
+.navbar .res-nom-big *{
+  color: white !important;
+  text-align: left;
+  font-size: 22px;
+  margin-top: 2px;
+  margin-left: -4px;
+  /* font-size: 5vw; */
+  /* Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm. */
+}
+
+.navbar .res-nom-xbig *{
+  color: white !important;
+  text-align: left;
+  font-size: 19px;
+  margin-top: 4px;
+  margin-left: -4px;
+}
+
+.navbar .icon {
+  font-size: 27px;
+  color: white !important;
+  margin-top: 2px;
+}
+
+.navbar-brand{
+  display: block;
+  left: 50%;
+  top: -10%;
+  position: absolute;
+  text-align: center;
+}
+
+.icon-plus{
+  color: white;
+  font-size: 23px;
+  margin-top: 12px;
+  margin-left: -13px;
+}
+
+.icon-minus{
+  color: white;
+  font-size: 23px;
+  margin-top: 12px;
+  margin-left: 23px;
+}
+
+.number-cantidad{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.boton-producto{
+  font-size: 18px !important;
+  margin-right: 30px !important;
+  margin-top: 4.5px;
+  /* font-weight: bold !important; */
+}
+
+.producto-icon{
+  font-size: 25px;
+  color: #f47b00  !important;
+  margin-top: 2px;
+  margin-left: 20px;
+}
+
+.producto-nota{
+  font-size: 20px;
+}
+
+.producto-notabox{
+  margin-top: -10px;
+}
+
+.mat-drawer-container.mat-sidenav-container{
+  overflow: visible;
+  position: fixed;
+  height: 75px;
+}
+
+.mat-drawer{
+  background-color: #faf8f0;
+}
+
+.mat-list-base .mat-list-item {
+  color: black !important;
+  font-size: 18px;
+  margin: 8px;
+}
+
+.drawer-title{
+  color: #fff !important;
+  font-size: 25px;
+  margin: 8px;
+  padding: 20px;
+}
+
+.drawer-list{
+  color: #000000c4 !important;
+  font-size: 20px;
+  margin: 8px;
+  padding: 20px;
+}
+
+.drawer-close{
+  color: #f78216 !important;
+  font-size: 20px;
+  margin: 8px;
+  padding: 20px;
+}
+
+.mat-toolbar {
+  background: #f78216;
+}
+
+.navbar .icono-Ralph img{
+  width: 35px;
+  margin-top: -3px;
+}
+
+.navbar .icono-Ralph-inicio img{
+  width: 32px;
+  margin-top: 1px;
+}
+
+.restaurante-logo img{
+  margin-top: -7px;
+  margin-right: -15px;
+}
+
+.navbar-bottom {
+  overflow: hidden;
+  background-color: #fb9904;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}
+
+.navbar-bottom a {
+  display: inline-block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fffcf7 !important;
+}
+
+.fixed-botom{
+  padding-top: 100px;
+}
+
+.info{
+  padding-top: 60px;
+}
+
+.icon {
+  font-size: 28px;
+  color: #f47b00  !important;
+}
+
+.icon-trash{
+  font-size: 28px;
+  color: #868585e8;
+}
+
+.icon-trash2{
+  font-size: 22px;
+  margin-top: 2px;
+  color: #868585e8;
+}
+
+.icon-black{
+  font-size: 28px;
+  color: #131313f8;
+}
+
+.icon-bottom-1{
+  font-size: 35px;
+  margin-top: -3px;
+  margin-right: -17px;
+}
+
+.icon-bottom-2{
+  font-size: 35px;
+  margin-top: -3px;
+  margin-left: -17px;
+}
+
+.categorias{
+  color: white;
+  font-size: 29px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.categorias-icon{
+  font-size: 20px;
+}
+
+.text{
+  font-size: 20px;
+}
+
+.text2{
+  font-size: 18px;
+}
+
+.text3{
+  font-size: 18px;
+  color: black;
+}
+
+.status{
+  margin-top: -18px;
+}
+
+.icon-red{
+  font-size: 17px;
+  color: #ff4409;
+}
+
+.icon-green{
+  font-size: 17px;
+  color: #36c536;
+}
+
+.stats-correo{  
+  font-size: 18px;
+  word-break: break-all;
+}
+
+.stats-text{  
+  font-size: 18px;
+}
+
+.stats-numero{  
+  font-size: 14px;
+  padding-top: 3px;
+  margin-left: -5px;
+  margin-right: 5px;
+}
+
+.pedido-card-text{  
+  font-size: 22px;
+}
+
+.pedido-card-text2{  
+  font-size: 22px;
+}
+
+.pedido-line{
+  margin-top: -20px;
+}
+
+.pedido-line2{
+  margin-top: -10px;
+}
+
+.pedido-card-icon{
+  font-size: 22px;
+}
+
+.pedido-card-tiempo{  
+  font-size: 17px;
+  margin-top: -8px;
+  /* margin-bottom: 13px; */
+  font-weight: bold;
+  background-color: #ffd7b2e0;
+  border-radius: 5px;
+  /* color: rgb(51, 51, 51); */
+  color: #000000b8;
+}
+
+.pedido-card-total{  
+  font-size: 28px;
+  font-weight: bold;
+  margin-right: 40px;
+  margin-top: -3px;
+  /* margin-bottom: -20px; */
+  color: green;
+}
+
+.detalle-pedido{
+  margin: -10px;
+  font-size: 20px;
+}
+
+.detalle-pedido-total{
+  font-size: 20px;
+  margin-right: 40px;
+  margin-top: 0px;
+  /* margin-bottom: -20px; */
+  color: green;
+}
+
+.detalle-pedido-total3{
+  font-size: 20px;
+  margin-right: 40px;
+  margin-top: 0px;
+  /* margin-bottom: -20px; */
+  color: black;
+}
+
+.text-detalle-pedido{
+  font-size: 25px;
+}
+
+.detalle-pedido-total2{
+  font-weight: bold;
+  font-size: 28px;
+  color: green;
+}
+
+.pedido-card{
+  margin-top: -10px;
+}
+
+.icono-inactivo{
+  background-color: #3c3838;
+  color: white;
+  font-size: 60px;
+  margin-top: -200px;
+  padding-left: 90px !important;
+  padding-top: 60px !important;
+  padding-bottom: 50px !important;
+  opacity: 0.70 !important;
+}
+
+.icon-status-camino{
+  font-size: 22px;
+  color: #f47b00;
+}
+
+.icon-status-completado{
+font-size: 22px;
+color: green;
+}
+
+.icon-status-cancelado{
+font-size: 22px;
+color: #ff4409;
+}
+
+.credito-info{
+  padding-top: 60px;
+  background-color: #fff;
+}
+
+.credito-info2{
+  padding-top: 10px;
+  background-color: #fff;
+}
+
+.card-credito{
+  margin-top: -10px;
+}
+
+.credito-card-text{
+  font-size: 23px;
+  margin-top: -20px;
+}
+
+.deposito-text{
+  font-size: 23px;
+  margin-top: 5px;
+}
+
+.deposito-nota{
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.deposito-cant{
+  font-size: 23px;
+  margin-top: 5px;
+  color: #22b122;
+}
+
+.deposito-cant2{
+  font-size: 23px;
+  margin-top: 5px;
+  color: rgba(255, 0, 0, 0.863);
+}
+
+.text-credito{
+  font-size: 20px;
+  color: #22b122;
+}
+
+.text-debe{
+  font-size: 20px;
+  color: rgba(255, 0, 0, 0.863);
+}
+
+.text-depositar{
+  font-size: 27px;
+  margin-top: -7px;
+}
+
+.politicas-sub{
+  font-size: 19px;
+}
+
+.politicas-reg{
+  font-size: 14px;
+}
+
+.ingredientes{
+  font-size: 1.35rem;
+}
+
+.subtitle{
+  font-size: 30px;
+  margin-left: 20px;
+  color: black;
+}
+
+.avatar{
+  margin-top: 2px;
+  margin-right: 15px;
+  margin-left: 0px;
+}
+
+.avatar2{
+  margin-top: -5px;
+  margin-right: 8px;
+  margin-left: -5px;
+}
+
+.avatar img{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.avatar2 img{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+ .avatar-2{
+  margin-top: -20px;
+  margin-right: 5px;
+  margin-left: 12px;
+}
+
+.restaurante-nombre{
+  font-size: 26px;
+  margin-left: 0px;
+  color: black;
+}
+
+.restaurante-nombre .nombre{
+  margin-bottom: 50px;
+}
+
+.badge-primary{
+  background-color: #ff5620  !important;
+}
+
+/* .card img{
+  border-radius: 10px;
+} */
+
+
+.card-tiempo{
+  background-color: white;
+  text-align: right;
+  margin-top: -21px;
+  margin-left: 142px;
+  padding-left: 8px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-inline-end: 80px;
+  font-weight: bold;
+  opacity: 0.9;
+  color: black;
+}
+
+.card-nombre{
+  color: black;
+  background-color: white;
+  margin-top: 146px;
+  font-size: 20px;
+  font-weight: 300;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: -20px;
+  margin-right: -1px;
+  padding-top: 5px;
+}
+
+.card-nombre-2{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 24px;
+  padding-bottom: 18px;
+  margin-top: 0px;
+  margin-left: -10px;
+  border-radius: 5px;
+  background-color: #f78216 !important;
+}
+
+.card-nombre-3{
+  margin-top: 0px;
+  margin-left: 10px;
+  font-size: 30px;
+}
+
+.little-letters{
+  font-size: 12px;
+}
+
+.little-letters-2{
+  font-size: 16px;
+  margin-bottom: -10px;
+}
+
+.pedido-card-tiempo-2{  
+  font-size: 17px;
+  margin-top: -4px;
+  margin-bottom: 7px;
+  font-weight: bold;
+  background-color: #ffd7b2e0;
+  border-radius: 5px;
+  color: #000000b8;
+}
+
+.card-precio{
+  color: green;
+  font-weight: bold;
+  background-color: white;
+  margin-top: 146px;
+  margin-right: -21px;
+  padding-top: 5px;
+}
+
+.sinpedidos{
+  font-size: 30px;
+  margin: 50px;
+  color: #212529cf;
+}
+
+.sinpedidos-2{
+  font-size: 28px;
+  margin: 30px;
+  color: #212529cf;
+}
+
+.sinpedidos-icon{
+  font-size: 60px;
+}
+
+#fondo{
+  background-color: #faf8f0;
+}
+
+.custom-file-upload {
+  border: 1px solid #ccc;
+  border-radius: 3%;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  text-align: center;
+  background-color: #f47b00;
+  color: white;
+  font-size: 18px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5%;
+  text-align: center;
+  margin-top: -12px;
+  margin-bottom: 12px;
+}
+
+.icon-img{
+  font-size: 60px;
+  margin-top: 65px;
+}
+
+.icon-edit{
+  font-size: 25px;
+  color: gray;
+}
+
+.img-edit img{
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.img-producto img{
+  width: 320px;
+  height: 250px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.panel-producto{
+  background-color: white;
+  border-radius: 5px;
+}
+
+.producto-nombre{
+  font-size: 25px;
+  text-align: justify;
+}
+
+.producto-precio{
+  font-size: 20px;
+  text-align: justify;
+  color: green;
+  font-weight: bold;
+}
+
+.producto-descripcion{
+  font-size: 20px;
+  text-align: justify;
+  margin: 10px;
+  margin-bottom: 0px;
+}
+
+.producto-descripcion-big{
+  font-size: 18px;
+  text-align: justify;
+  margin-bottom: -3px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.producto-ing{
+  font-size: 17px;
+}
+
+.btn-modal-cancel{
+  background-color: #f8cbad !important;
+  border-color: yellow !important;
+} 
+
+.btn-modal-cancel{
+  background-color: #f8cbad !important;
+  border-color: #ffc9a5 !important;
+}
+
+.btn-modal-success{
+  background-color: #ff5620 !important;
+  border-color: #ff4409 !important;
+  color: #ccc;
+}
+
+.btn-modal-option{
+  background-color: white !important;
+  border-color: #fba82ae0 !important;
+  height: 45px;
+}
+
+
+.modal{
+  text-align: center;
+  width: 90% !important;
+  margin-left: 20px;
+}
+
+.modal .btn{
+  font-size: 19px !important;
+}
+
+.modal-footer{
+  display: inline-block !important;
+  border-top: 0px !important;
+}
+
+.modal-header{
+  display: inline-block !important;
+  border-bottom: 0px !important;
+  padding-top: 22px !important;
+}
+
+.modal-header *{
+  font-size: 22px !important;
+}
+
+.modal-credito{
+  font-size: 18px !important;
+  margin-bottom: 0 !important;
+}
+
+.clickable {
+  cursor: pointer;
+}

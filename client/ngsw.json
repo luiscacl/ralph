@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1747952762082,
+  "timestamp": 1748037978293,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -10,8 +10,8 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main-es2015.2e34baab6e2eba806fff.js",
-        "/main-es5.2e34baab6e2eba806fff.js",
+        "/main-es2015.09627be79c473a728a85.js",
+        "/main-es5.09627be79c473a728a85.js",
         "/manifest.webmanifest",
         "/polyfills-es2015.f332a089ad1600448873.js",
         "/polyfills-es5.177e85a9724683782539.js",
@@ -28,6 +28,7 @@
       "updateMode": "prefetch",
       "urls": [
         "/assets/1.png",
+        "/assets/config.json",
         "/assets/icono.png",
         "/assets/icons-apple/icon-152x152.png",
         "/assets/icons-apple/icon-192x192.png",
@@ -70,6 +71,7 @@
   "dataGroups": [],
   "hashTable": {
     "/assets/1.png": "42fe94b38f738fe1416ff63cc9b482c7a980e0a1",
+    "/assets/config.json": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
     "/assets/icono.png": "c9dafeb490fe304968601a071f78599a77c98da9",
     "/assets/icons-apple/icon-152x152.png": "b5be5c835ce771473e275db9628d083e1cc97289",
     "/assets/icons-apple/icon-192x192.png": "84c8cd96ecee3076fec7a0917288737a1d6c3e08",
@@ -106,9 +108,9 @@
     "/fa-solid-900.a480ec972cb6bce30533.ttf": "874c650701d0cbfb8f1de48a496dabed3bbf22e6",
     "/fa-solid-900.dfaa060a451d978c2565.eot": "96a5637429426764ea9b28bf4d1eb55ae10de57e",
     "/favicon.ico": "3576270dfd3607177e039b923b9d3f8af7df33e0",
-    "/index.html": "638372e52a973e84564fe33334ee94c211add049",
-    "/main-es2015.2e34baab6e2eba806fff.js": "57e40a568fefb9dad59cecd2740c3ccb0eb36575",
-    "/main-es5.2e34baab6e2eba806fff.js": "5844d56a31b09045b4cf73ba6d63d7863845eb37",
+    "/index.html": "1118622c53b2e7ee4ab04abe79ce1b447a49a811",
+    "/main-es2015.09627be79c473a728a85.js": "1bbe9a626497400957d89da3b0748353ac069861",
+    "/main-es5.09627be79c473a728a85.js": "a188a1414a15649c5b0cf4659dbe47dcbefb81b2",
     "/manifest.webmanifest": "37c60819f831c02758fbbab850f3f3124cda0083",
     "/polyfills-es2015.f332a089ad1600448873.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
     "/polyfills-es5.177e85a9724683782539.js": "8aa26ea87b9958c6bd13b7c257c0e9940438e684",
